@@ -25,8 +25,8 @@ The app fetches a list of employees from the backend and displays them in a clea
 
 ## 📂 Project Structure (Flutter)
 
-The Flutter application follows a scalable folder structure:
-lib/ ├── api/ # Network Layer (ApiClient, Interceptors) ├── features/ │ └── employee/ # Feature: Employee List │ ├── controller/ # State Management (GetXController) │ ├── domain/ # Business Logic │ │ ├── model/ # Data Models │ │ ├── repository/ # Repository Interfaces │ │ └── services/ # Service Interfaces │ └── presentation/ # UI Widgets & Screens ├── helper/ # Dependency Injection (get_di.dart) ├── utils/ # Constants (AppConstants, Strings) └── main.dart # Entry Point
+## The Flutter application follows a scalable folder structure:
+ lib/ ├── api/ # Network Layer (ApiClient, Interceptors) ├── features/ │ └── employee/ # Feature: Employee List │ ├── controller/ # State Management (GetXController) │ ├── domain/ # Business Logic │ │ ├── model/ # Data Models │ │ ├── repository/ # Repository Interfaces │ │ └── services/ # Service Interfaces │ └── presentation/ # UI Widgets & Screens ├── helper/ # Dependency Injection (get_di.dart) ├── utils/ # Constants (AppConstants, Strings) └── main.dart # Entry Point 
 ---
 
 ## ⚙️ Setup & Installation Guide
